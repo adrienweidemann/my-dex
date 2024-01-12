@@ -1,12 +1,25 @@
 {
   "name": "my-dex",
+  "description": "Custom index app",
   "version": "0.1.0",
+  "author": "WEIDEMANN HAEFFELE Adrien",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
+  },
+  "engines": {
+    "npm": "please-use-npm",
+    "node": ">=20.0.0 <21.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adrienweidemann/my-dex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adrienweidemann/my-dex/issues"
   },
   "dependencies": {
     "react": "^18",
